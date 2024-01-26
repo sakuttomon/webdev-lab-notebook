@@ -9,7 +9,7 @@ body {
 .header,
 .section,
 .aside {
-  box-sizing: content-box;
+  box-sizing: border-box;
   padding: 10px;
   border: 4px solid var(--black);
 }
@@ -19,6 +19,7 @@ body {
 }
 
 .section {
+  /* Neighboring elements put next to each other if they fit */
   display: inline-block;
   width: 75%;
   height: 300px;
