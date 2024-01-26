@@ -1,3 +1,63 @@
+body {
+  background: purple;
+  color: white;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0.75em;
+}
+
+nav ul li a:hover {
+  background-color: gray;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.main {
+  margin-top: 70px;
+
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+@media (max-width: 414px) {
+  nav ul li {
+    width: 100%;
+  }
+
+  .main {
+    margin-top: 180px;
+  }
+}
+
+@media (min-width: 415px) {
+  body {
+    background: orange;
+    color: black;
+  }
+}
+
 @media (min-width: 1024px) {
   body {
     background: var(--green);
