@@ -26,4 +26,8 @@ I completed the exercise without much trouble, but resorted to the video solutio
 
 ### CSS Grid - 05
 
+I initially did the exercises with a singular “style” of only utilizing `fr` units, but then I referenced the videos and liked the alternative approaches, such as using percentage values for row and column sizes. For the 02-grid-area exercise, I referred to the video for the exact pixel widths for the media queries to replicate the desktop, tablet, and phone size differences. For the desktop-sized container grid, I preferred how the video added an additional column to span the article over my original method of increasing the second column’s width, so I imitated that style.
+
+The grid area exercise was especially helpful. The power of assigning a `grid-area` to classes, then essentially constructing a text-based table layout in the `grid-template-areas` property, felt intuitive. Although it took a while to get used to the format style of grid elements, I think the exercises were explained well due to the simplicity. As for suggestions on other exercises, there could be some practice on common grid layouts commonly seen in the industry, perhaps graphs or a page with images and text sections. However, the different layouts to replicate felt comprehensive, so these suggestions are more like supplemental exercises.
+
 ### Bootstrap - 06
